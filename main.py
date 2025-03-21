@@ -8,6 +8,7 @@ df = pd.read_excel(file_path)
 mapper = dict(zip(df['CATEGORY'], df['SERVICES']))
 
 # Print or use the dictionary
+
 print(mapper)
 
 # Optional: Save the dictionary to a text file
